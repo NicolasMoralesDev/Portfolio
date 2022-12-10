@@ -10,7 +10,6 @@ export default function Home() {
         <meta name="description" content="Bienvenidos a mi Pagina web donde muestro mis mejores proyectos y poco mas de mi" />
       </Head>
       <Portada/>
-      <h2>ju</h2>
     </div>
   )
 }
