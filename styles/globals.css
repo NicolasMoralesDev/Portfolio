@@ -15,6 +15,19 @@ a {
   box-sizing: border-box;
 }
 
+
+.portada_ovelay::before{
+  position: absolute;
+  z-index: 2;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8)
+
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
