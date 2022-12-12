@@ -1,8 +1,7 @@
-import React, { Fragment, useState } from 'react'
+import React, { Fragment } from 'react'
 import Head from 'next/head'
 
 
-const [data, setData] = useState<String>();
 
 const sobremi = () => {
   return (
