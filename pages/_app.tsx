@@ -6,12 +6,12 @@ import Head from 'next/head'
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
-      <Head>
-        <link rel="icon" href="/icons8-class-dojo-16.png" />
-      </Head>
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
+        <Head>
+          <link rel="icon" href="/icons8-class-dojo-16.png" />
+        </Head>
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
     </>
   )
 
