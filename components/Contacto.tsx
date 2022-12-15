@@ -5,7 +5,7 @@ const Contacto = () => {
     <div className="flex p-5 contacto_container justify-center flex-col items-center gap-4 w-full h-1/5">
       <h2 className='text-4xl text-white'>Dejame tu Mensaje</h2>
       <div className='form_container flex items-center flex-col h-1/3 w-64 p-5  rounded-xl bg-red-800'>
-        <form action="" method="post" className=' text-white flex items-center flex-col gap-4'>
+        <form action="https://formsubmit.co/nicolasmoralesj03@gmail.com" method="POST" className=' text-white flex items-center flex-col gap-4'>
           <label htmlFor="nombre">Nombre:
           <input type="text" name="nombre" id="nombre" placeholder='ingrese su nombre' required />
           </label>
@@ -20,8 +20,16 @@ const Contacto = () => {
           <textarea name="consulta" id="consulta" required placeholder='ingrese su mensaje' ></textarea>
 
           </label>
+          <input type="hidden" name="_captcha" value="false"/>
+          <input type="hidden" name="_autoresponse" value="tu mensaje personalizado"/>
+          <input type="hidden" name="_template" value="table"/>
+          <input type="hidden" name="_replyto"/>
+          <input type="hidden" name="_next" value="http://localhost:3000/"/>
+
           <br />
+
         <button type="submit" className='rounded-md bg-green-700 w-full h-10'>Enviar</button>
+     
         </form>
       </div>
 
