@@ -4,7 +4,7 @@ const Contacto = () => {
   return (
     <div className="flex p-5 contacto_container justify-center flex-col items-center gap-4 w-full h-1/5">
       <h2 className='text-4xl text-white'>Dejame tu Mensaje</h2>
-      <div className='form_container flex items-center flex-col h-1/3 w-64 p-5  rounded-xl bg-red-800'>
+      <div className='form_container flex items-center flex-col h-1/3 w-64 p-5   bg-red-800'>
         <form action="https://formsubmit.co/nicolasmoralesj03@gmail.com" method="POST" className=' text-white flex items-center flex-col gap-4'>
           <label htmlFor="nombre">Nombre:
           <input type="text" name="nombre" id="nombre" placeholder='ingrese su nombre' required />
