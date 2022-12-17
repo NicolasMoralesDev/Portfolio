@@ -24,11 +24,11 @@ const Contacto = () => {
           <input type="hidden" name="_autoresponse" value="tu mensaje personalizado"/>
           <input type="hidden" name="_template" value="table"/>
           <input type="hidden" name="_replyto"/>
-          <input type="hidden" name="_next" value="http://localhost:3000/"/>
+          <input type="hidden" name="_next" value="https://portfolio-topaz-zeta-83.vercel.app/"/>
 
           <br />
 
-        <button type="submit" className='rounded-md bg-green-700 w-full h-10'>Enviar</button>
+        <button type="submit" className=' bg-green-500 rounded-lg w-full h-10 '>Enviar</button>
      
         </form>
       </div>

@@ -52,6 +52,16 @@ button{
 
 }
 
+/* .proyectos_fondo {
+  background-image: url('../public/technology-g7d1366a52_1920.jpg');
+} */
+
+.proyecto_card {
+  box-shadow: 10px 5px 17px 3px black;
+
+}
+
+
 .contacto_container{
   background-image: url('../public/technology-g7d1366a52_1920.jpg');
   background-position: 50%;
@@ -65,6 +75,8 @@ button{
 .proyectos_container{
   max-width: 60%
 }
+
+
 
 @tailwind base;
 @tailwind components;
