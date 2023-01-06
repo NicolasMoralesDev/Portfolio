@@ -10,7 +10,7 @@ const Footer = () => {
                 <li><Link href="https://github.com/NicolasMoralesDev?tab=repositories"  className='flex gap-2'> <BsGithub/>Github </Link></li>
             </ul>
             <div className='w-full flex justify-center'>
-                <h2 className='absolute bottom-0 pb-3'>© 2022 copyright - Nicolas Morales</h2>
+                <h2 className='absolute bottom-0 pb-3'>© 2023 copyright - Nicolas Morales</h2>
 
             </div>
         </footer>

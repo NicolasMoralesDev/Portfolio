@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Contacto from '../components/Contacto'
+import Habilidades from '../components/Habilidades'
 import Portada from '../components/Portada'
 import Proyectos from '../components/Proyectos'
 import styles from '../styles/Home.module.css'
@@ -13,6 +14,7 @@ export default function Home() {
       </Head>
       <Portada/>
       <Proyectos/>
+      <Habilidades/>
       <Contacto/>
     </div>
   )
