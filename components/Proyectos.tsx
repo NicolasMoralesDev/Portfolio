@@ -4,7 +4,7 @@ const Proyectos = () => {
   return (
     <div className='proyectos_fondo w-full h-1/5 flex flex-col items-center justify-center p-5 gap-3'>
       <h2 className='text-5xl font-bold text-center'> MIS TRABAJOS DESTACADOS</h2>
-      <div className='flex   proyectos_container  h-1/2 p-3 gap-5 flex-wrap rounded-lg'>
+      <div className='flex proyectos_container  h-1/2 p-3 gap-5 flex-wrap rounded-lg'>
         <div className='flex flex-col proyecto_card  w-60 gap-3 p-3' >
           <img src="proyecto1.PNG" alt="proyecto1" width={'100%'} />
           <h2 className='font-extrabold'>Zion Urbano</h2>
