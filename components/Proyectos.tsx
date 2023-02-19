@@ -52,7 +52,16 @@ const Proyectos = () => {
           </div>
           <p></p>
         </div>
+        <div className='flex flex-col proyecto_card  w-60 gap-3 p-3' >
+          <img src="Foto-Teca_Portada.PNG" alt="proyecto5" width={'100%'} />
+          <h2 className='font-extrabold'>Foto Teca</h2>
+          <p>Proyecto realizado en Next.js. Aplicacion web de busqueda y descarga de imagenes consumiendo la api de unsplash</p>
+          <div className="flex flex-col items-center w-full justify-end h-full">
 
+            <a href='https://foto-teca-i.vercel.app' className='w-full bg-red-700 text-white text-center h-9 p-1'>visitar </a>
+          </div>
+          <p></p>
+        </div>
       </div>
     </div>
   )
