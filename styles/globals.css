@@ -18,7 +18,8 @@ a {
 .portada_ovelay{
   background-image: url('../public/graphic-design-studio-gb01777763_1920.jpg');
   height: 490px;
-  user-select: none;
+  user-select: none; 
+   background-repeat: no-repeat;
 }
 
 .contenido_ovelay{

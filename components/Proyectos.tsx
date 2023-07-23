@@ -14,6 +14,15 @@ const Proyectos = () => {
           </div>
           <p></p>
         </div>
+        <div className='flex flex-col proyecto_card  w-60 gap-3 p-3' >
+          <img src="fedra.PNG" alt="proyecto1" width={'100%'} />
+          <h2 className='font-extrabold'>FEDRA</h2>
+          <p>Plataforma web desarrollada para la Federacion Argentina de Entidades de Discotecas de la Republica Argentina, Implementamos un sistema de cobro de aportes para los socios y gestion de socios.</p>
+          <div className="flex flex-col items-center w-full justify-end h-full">
+            <a href='https://fedra.ar' className='bg-red-700 w-full text-white text-center h-9 p-1'>visitar </a>
+          </div>
+          <p></p>
+        </div>
         <div className='flex flex-col proyecto_card w-60 gap-3 p-3' >
           <img src="proyecto2.PNG" alt="proyecto2" width={'100%'} />
           <h2 className='font-extrabold'>Hoxton Pizzeria</h2>
